@@ -52,3 +52,15 @@ task all_tests(type: Test) {
         includeTags("Global", "Shop")
     }
 }
+
+task global_tests(type: Test) {
+    useJUnitPlatform {
+        includeTags("Global")
+    }
+}
+
+task shop_tests(type: Test) {
+    useJUnitPlatform {
+        includeTags("Shop")
+    }
+}

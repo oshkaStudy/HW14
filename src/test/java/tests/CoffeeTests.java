@@ -6,9 +6,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.BlogPage;
 import pages.MainPage;
-import pages.components.CartModal;
 import pages.components.NavigateBar;
-import pages.components.ProductCardModal;
 
 public class CoffeeTests extends TestBase{
 
