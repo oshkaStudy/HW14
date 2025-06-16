@@ -7,6 +7,9 @@ import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import java.util.Map;
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 
@@ -17,6 +20,18 @@ public class TestBase {
         Configuration.baseUrl = "https://coffeelogia.kz/";
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager";
+
+        Configuration.remote = String.format("https://%s@%s/wd/hub",
+                System.getProperty("selenoidCredentials"),
+                System.getProperty("selenoidUrl"));
+
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("selenoid:options", Map.<String, Object>of(
+                "enableVNC", true,
+                "enableVideo", true
+        ));
+        Configuration.browserCapabilities = capabilities;
+
     }
 
     @BeforeEach
