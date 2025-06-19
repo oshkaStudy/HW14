@@ -8,8 +8,6 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.remote.DesiredCapabilities;
-
-import java.awt.desktop.SystemEventListener;
 import java.util.Map;
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
