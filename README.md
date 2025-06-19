@@ -21,52 +21,53 @@
     <tr>
       <td align="center" width="110">
         <a href="https://www.java.com/" target="_blank">
-          <img src="media/icons/java.svg" width="48" height="48" alt="Java" /><br>Java
-        </a>
+          <img src="media/icons/java.svg" width="48" height="48" alt="Java" />
+        </a><br>Java
       </td>
       <td align="center" width="110">
         <a href="https://gradle.org/" target="_blank">
-          <img src="media/icons/gradle.svg" width="48" height="48" alt="Gradle" /><br>Gradle
-        </a>
+          <img src="media/icons/gradle.svg" width="48" height="48" alt="Gradle" />
+        </a><br>Gradle
       </td>
       <td align="center" width="110">
         <a href="https://junit.org/junit5/" target="_blank">
-          <img src="media/icons/junit5.svg" width="48" height="48" alt="JUnit 5" /><br>JUnit 5
-        </a>
+          <img src="media/icons/junit5.svg" width="48" height="48" alt="JUnit 5" />
+        </a><br>JUnit 5
       </td>
       <td align="center" width="110">
         <a href="https://selenide.org/" target="_blank">
-          <img src="media/icons/selenide.png" width="48" height="48" alt="Selenide" /><br>Selenide
-        </a>
+          <img src="media/icons/selenide.png" width="48" height="48" alt="Selenide" />
+        </a><br>Selenide
       </td>
       <td align="center" width="110">
         <a href="https://docs.qameta.io/allure/" target="_blank">
-          <img src="media/icons/allure.png" width="48" height="48" alt="Allure" /><br>Allure
-        </a>
+          <img src="media/icons/allure.png" width="48" height="48" alt="Allure" />
+        </a><br>Allure
       </td>
       <td align="center" width="110">
         <a href="https://www.jenkins.io/" target="_blank">
-          <img src="media/icons/jenkins.svg" width="48" height="48" alt="Jenkins" /><br>Jenkins
-        </a>
+          <img src="media/icons/jenkins.svg" width="48" height="48" alt="Jenkins" />
+        </a><br>Jenkins
       </td>
       <td align="center" width="110">
         <a href="https://github.com/aerokube/selenoid" target="_blank">
-          <img src="media/icons/selenoid.png" width="48" height="48" alt="Selenoid" /><br>Selenoid
-        </a>
+          <img src="media/icons/selenoid.png" width="48" height="48" alt="Selenoid" />
+        </a><br>Selenoid
       </td>
       <td align="center" width="110">
         <a href="https://github.com/" target="_blank">
-          <img src="media/icons/github.svg" width="48" height="48" alt="GitHub" /><br>GitHub
-        </a>
+          <img src="media/icons/github.svg" width="48" height="48" alt="GitHub" />
+        </a><br>GitHub
       </td>
       <td align="center" width="110">
         <a href="https://telegram.org/" target="_blank">
-          <img src="media/icons/telegram.svg" width="48" height="48" alt="Telegram" /><br>Telegram
-        </a>
+          <img src="media/icons/telegram.svg" width="48" height="48" alt="Telegram" />
+        </a><br>Telegram
       </td>
     </tr>
   </table>
 </div>
+
 
 
 ## :coffee: Детальное описание
@@ -160,7 +161,7 @@
 :diamonds: Видео прогона автотестов  
   
 <details>
-  <summary>Детальное тображение</summary>
+  <summary>Пример детального отображения</summary>
 <img src="media/screens/allure_report_detailed.jpg" width="800" alt="Allure детальный отчет">
 </details>
 
@@ -174,7 +175,6 @@
 ## :coffee: Уведомления в Telegram
 
 После завершения сборки, бот, созданный в Telegram, автоматически обрабатывает и отправляет сообщение с результатом.
-
 Пример сообщения:
 
 <p align="center">
