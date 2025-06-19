@@ -9,6 +9,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+import java.awt.desktop.SystemEventListener;
 import java.util.Map;
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
@@ -18,12 +19,15 @@ public class TestBase {
     @BeforeAll
     public static void configSetup() {
         Configuration.baseUrl = "https://coffeelogia.kz/";
-        Configuration.browserSize = "1920x1080";
+        Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
         Configuration.pageLoadStrategy = "eager";
 
-        Configuration.remote = String.format("https://%s@%s/wd/hub",
-                System.getProperty("selenoidCredentials"),
-                System.getProperty("selenoidUrl"));
+        if (System.getProperty("selenoidCredentials") != null &
+                System.getProperty("selenoidUrl") != null) {
+            Configuration.remote = String.format("https://%s@%s/wd/hub",
+                    System.getProperty("selenoidCredentials"),
+                    System.getProperty("selenoidUrl"));
+        }
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
