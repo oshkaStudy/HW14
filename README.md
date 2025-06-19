@@ -103,7 +103,9 @@
 
 <details>
   <summary>Примеры локального запуска</summary>
-#### Команды для bash:
+
+#### Команды для bash:  
+
 ```bash
 ./gradlew clean all_tests
 ```
@@ -114,7 +116,7 @@
 </details>
 
 <details>
-  <summary>Пример удаленного запуска через Jenkins</summary>
+  <summary>Пример удаленного запуска через Jenkins</summary>  
 
 [Перейти в Jenkins](https://jenkins.autotests.cloud/job/C35-oshkamoshka-HW14/) и указать параметры:
 
