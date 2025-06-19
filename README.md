@@ -146,7 +146,9 @@
 
 ---
 
-## :coffee: [Allure-отчет](https://jenkins.autotests.cloud/job/C35-oshkamoshka-HW14/allure/)
+## :coffee: Allure отчет
+
+Глобальный отчет по всем удаленным запускам хранится на сервере, ссылка: [Allure-отчет](https://jenkins.autotests.cloud/job/C35-oshkamoshka-HW14/allure/)
 
 ### :tea: Главная страница Allure-отчета
 <img src="media/screens/allure_report.jpg" width="800" alt="Allure отчет главная страница">
