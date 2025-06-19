@@ -20,35 +20,54 @@
   <table>
     <tr>
       <td align="center" width="110">
-        <img src="media/icons/java.svg" width="48" height="48" alt="Java" /><br>Java
+        <a href="https://www.java.com/" target="_blank">
+          <img src="media/icons/java.svg" width="48" height="48" alt="Java" /><br>Java
+        </a>
       </td>
       <td align="center" width="110">
-        <img src="media/icons/gradle.svg" width="48" height="48" alt="Gradle" /><br>Gradle
+        <a href="https://gradle.org/" target="_blank">
+          <img src="media/icons/gradle.svg" width="48" height="48" alt="Gradle" /><br>Gradle
+        </a>
       </td>
       <td align="center" width="110">
-        <img src="media/icons/junit5.svg" width="48" height="48" alt="JUnit 5" /><br>JUnit 5
+        <a href="https://junit.org/junit5/" target="_blank">
+          <img src="media/icons/junit5.svg" width="48" height="48" alt="JUnit 5" /><br>JUnit 5
+        </a>
       </td>
       <td align="center" width="110">
-        <img src="media/icons/selenide.png" width="48" height="48" alt="Selenide" /><br>Selenide
+        <a href="https://selenide.org/" target="_blank">
+          <img src="media/icons/selenide.png" width="48" height="48" alt="Selenide" /><br>Selenide
+        </a>
       </td>
       <td align="center" width="110">
-        <img src="media/icons/allure.png" width="48" height="48" alt="Allure" /><br>Allure
+        <a href="https://docs.qameta.io/allure/" target="_blank">
+          <img src="media/icons/allure.png" width="48" height="48" alt="Allure" /><br>Allure
+        </a>
       </td>
       <td align="center" width="110">
-        <img src="media/icons/jenkins.svg" width="48" height="48" alt="Jenkins" /><br>Jenkins
+        <a href="https://www.jenkins.io/" target="_blank">
+          <img src="media/icons/jenkins.svg" width="48" height="48" alt="Jenkins" /><br>Jenkins
+        </a>
       </td>
       <td align="center" width="110">
-        <img src="media/icons/selenoid.png" width="48" height="48" alt="Selenoid" /><br>Selenoid
+        <a href="https://github.com/aerokube/selenoid" target="_blank">
+          <img src="media/icons/selenoid.png" width="48" height="48" alt="Selenoid" /><br>Selenoid
+        </a>
       </td>
       <td align="center" width="110">
-        <img src="media/icons/github.svg" width="48" height="48" alt="GitHub" /><br>GitHub
+        <a href="https://github.com/" target="_blank">
+          <img src="media/icons/github.svg" width="48" height="48" alt="GitHub" /><br>GitHub
+        </a>
       </td>
       <td align="center" width="110">
-        <img src="media/icons/telegram.svg" width="48" height="48" alt="Telegram" /><br>Telegram
+        <a href="https://telegram.org/" target="_blank">
+          <img src="media/icons/telegram.svg" width="48" height="48" alt="Telegram" /><br>Telegram
+        </a>
       </td>
     </tr>
   </table>
 </div>
+
 
 ## :coffee: Детальное описание
 
@@ -118,7 +137,7 @@
 <details>
   <summary>Пример удаленного запуска через Jenkins</summary>  
 
-[Перейти в Jenkins](https://jenkins.autotests.cloud/job/C35-oshkamoshka-HW14/) и указать параметры:
+#### [Перейти в Jenkins](https://jenkins.autotests.cloud/job/C35-oshkamoshka-HW14/) и указать параметры:
 
 <img src="media/screens/jenkins_config.jpg" alt="Настройки jenkins">
 
@@ -133,6 +152,7 @@
 
 ### :tea: Детальный разбор отчета
 Отчет содержит:  
+
 :diamonds: Шаги теста  
 :diamonds: Скриншот страницы на последнем шаге  
 :diamonds: Page Source  
