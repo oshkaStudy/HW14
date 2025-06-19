@@ -20,6 +20,7 @@ public class TestBase {
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
         Configuration.pageLoadStrategy = "eager";
 
+        //При наличии параметров для удаленного запуска - запуск в селеноиде
         if (System.getProperty("selenoidCredentials") != null &
                 System.getProperty("selenoidUrl") != null) {
             Configuration.remote = String.format("https://%s@%s/wd/hub",
