@@ -140,9 +140,9 @@
 <details>
   <summary>Пример удаленного запуска через Jenkins</summary>  
 
-#### [Перейти в Jenkins](https://jenkins.autotests.cloud/job/C35-oshkamoshka-HW14/) и указать параметры:
+#### [Перейти в Jenkins](https://jenkins.autotests.cloud/job/C35-oshkamoshka-HW14/), указать параметры и нажать Build:
 
-<img src="media/screens/jenkins_config.jpg" alt="Настройки jenkins">
+<img src="media/screens/jenkins_config.png" width="800" alt="Настройки jenkins">
 
 </details>
 
@@ -153,7 +153,7 @@
 Глобальный отчет по всем удаленным запускам хранится на сервере, ссылка: [Allure-отчет](https://jenkins.autotests.cloud/job/C35-oshkamoshka-HW14/allure/)
 
 ### :tea: Главная страница Allure-отчета
-<img src="media/screens/allure_report.jpg" width="800" alt="Allure отчет главная страница">
+<img src="media/screens/allure_report.png" width="800" alt="Allure отчет главная страница">
 
 ### :tea: Детальный разбор отчета
 Отчет содержит:  
@@ -166,7 +166,7 @@
   
 <details>
   <summary>Пример детального отображения</summary>
-<img src="media/screens/allure_report_detailed.jpg" width="800" alt="Allure детальный отчет">
+<img src="media/screens/allure_report_detailed.png" width="800" alt="Allure детальный отчет">
 </details>
 
 <details>

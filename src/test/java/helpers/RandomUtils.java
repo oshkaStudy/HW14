@@ -21,7 +21,7 @@ public class RandomUtils {
     }
 
     public static String getRandomProductName() {
-        String[] names = {"Вьетнам Далат (VIETNAM DALAT)",
+        String[] names = {"Бразилия Моджиана (Brazil Mogiana)",
                 "Колумбия Супремо (Colombia Supremo)",
                 "Колумбия Супремо (ВЕНСКАЯ) Colombia Supremo",};
         return getRandomItemFromArray(names);
