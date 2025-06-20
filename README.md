@@ -172,7 +172,7 @@
 <details>
   <summary>Пример видео</summary>
 <p align="center">
-  <img src="media/screens/test_run.gif" width="600" alt="Видео прогона">
+  <img src="media/screens/test_run.gif" width="700" alt="Видео прогона">
 </p>
 </details>
 
@@ -184,5 +184,5 @@
 Пример сообщения:
 
 <p align="center">
-<img src="media/screens/telegram_result.jpg" width="600" alt="telegram notification">
+<img src="media/screens/telegram_result.png" alt="telegram notification">
 </p>
