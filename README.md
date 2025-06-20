@@ -108,8 +108,7 @@
 | Категория                     |    Общие     |    Магазин | Все тесты |
 |-------------------------------|:------------:|-----------:|----------:|
 | Тэг                           |    Global    |       Shop |         - |
-| Параметр локального запуска   | global_tests | shop_tests | all_tests |
-| Параметр запуска из Дженкинса |    Общие     |    Магазин |       Все |
+| Параметр для запуска          | global_tests | shop_tests | all_tests |
 
 #### :tea: Расширение браузера - задано три фиксированных варианта при запуске из дженкинса:
 
@@ -184,5 +183,5 @@
 Пример сообщения:
 
 <p align="center">
-<img src="media/screens/telegram_result.png" alt="telegram notification">
+<img src="media/screens/telegram_result.png" width="400" alt="telegram notification">
 </p>
