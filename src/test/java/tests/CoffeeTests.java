@@ -18,7 +18,7 @@ public class CoffeeTests extends TestBase{
     @Owner("oshkaStudy")
     @Tag("Global")
     @DisplayName("Проверка отображения элементов главной страницы")
-    public void CheckMainPageLoading() {
+    public void checkMainPageLoading() {
 
         mainPage.OpenMainPage()
                 .CheckMainBannerText()
@@ -32,14 +32,10 @@ public class CoffeeTests extends TestBase{
     @Owner("oshkaStudy")
     @Tag("Global")
     @DisplayName("Проверка отображения опций навигационного меню")
-    public void CheckNavBarOptions() {
-
-        //Инициация нового набора тестовых данных
-        TestData testData = new TestData();
+    public void checkNavBarOptions() {
 
         mainPage.OpenMainPage();
-
-        navBar.CheckNavBarOptionsAreVisible(testData.navOptions);
+        navBar.CheckNavBarOptionsAreVisible();
 
     }
 
@@ -47,7 +43,7 @@ public class CoffeeTests extends TestBase{
     @Owner("oshkaStudy")
     @Tag("Global")
     @DisplayName("Проверка отображения элементов страницы Блог")
-    public void CheckBlogPageLoading() {
+    public void checkBlogPageLoading() {
 
         blogPage.OpenBlogPage()
                 .CheckBannerIsVisible()
@@ -59,7 +55,7 @@ public class CoffeeTests extends TestBase{
     @Owner("oshkaStudy")
     @Tag("Shop")
     @DisplayName("Проверка наличия карточек товара из случайной страны")
-    public void CheckProductByCountry() {
+    public void checkProductByCountry() {
 
         //Инициация нового набора тестовых данных
         TestData testData = new TestData();
@@ -73,7 +69,7 @@ public class CoffeeTests extends TestBase{
     @Owner("oshkaStudy")
     @Tag("Shop")
     @DisplayName("Проверка добавления товара в корзину")
-    public void TakeProductToCart() {
+    public void takeProductToCart() {
 
         //Инициация нового набора тестовых данных
         TestData testData = new TestData();

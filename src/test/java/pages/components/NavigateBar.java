@@ -19,10 +19,12 @@ public class NavigateBar {
     }
 
     private ElementsCollection navOptions = navBar.$$("li.t228__list_item");
+    public String[] navOptionsNames= {"О нас", "Кофе", "Чай", "Оборудование",
+            "Сервис", "Школа Бариста", "Контакты", "CoffeeBLOG"};
 
     @Step("Проверка отображения всех элементов навигационного меню")
-    public void CheckNavBarOptionsAreVisible(String ... options) {
-        navOptions.shouldHave(texts(options));
+    public void CheckNavBarOptionsAreVisible() {
+        navOptions.shouldHave(texts(navOptionsNames));
     }
 
 }

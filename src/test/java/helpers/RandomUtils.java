@@ -1,30 +1,30 @@
 package helpers;
 
-import java.util.concurrent.ThreadLocalRandom;
+import com.github.javafaker.Faker;
+import java.util.Locale;
 
 public class RandomUtils {
 
-    public static int getRandomInt(int min, int max) {
-        return ThreadLocalRandom.current().nextInt(min, max + 1);
-    }
+    private static final Faker faker = new Faker(new Locale("ru"));
 
-    public static String getRandomItemFromArray(String[] array) {
-        int index = getRandomInt(0, array.length - 1);
-
-        return array[index];
+    public static String getRandomProductName() {
+        // Здесь можно использовать faker.commerce().productName(),
+        // но если хочешь сохранить стиль кофе — можно кастомизировать:
+        return faker.options().option(
+                "Бразилия Моджиана (Brazil Mogiana)",
+                "Колумбия Супремо (Colombia Supremo)",
+                "Колумбия Супремо (ВЕНСКАЯ) Colombia Supremo"
+        );
     }
 
     public static String getRandomCountry() {
-        String[] countries = {"Эфиопия", "Колумбия", "Бразилия"};
-
-        return getRandomItemFromArray(countries);
-    }
-
-    public static String getRandomProductName() {
-        String[] names = {"Бразилия Моджиана (Brazil Mogiana)",
-                "Колумбия Супремо (Colombia Supremo)",
-                "Колумбия Супремо (ВЕНСКАЯ) Colombia Supremo",};
-        return getRandomItemFromArray(names);
+        // Здесь можно использовать faker.commerce().productName(),
+        // но если хочешь сохранить стиль кофе — можно кастомизировать:
+        return faker.options().option(
+                "Эфиопия",
+                "Колумбия",
+                "Бразилия"
+        );
     }
 
 }
